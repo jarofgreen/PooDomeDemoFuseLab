@@ -4,10 +4,13 @@ html, body {
 }
 #header { 
 	padding: 0;
-	
+}
+#logo {
+	float: right;
 }
 #header p {
 	font-size: 24pt;
+	height: 55px;
 }
 #header #bar1 {
 	height: 10px;
