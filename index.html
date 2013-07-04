@@ -2,6 +2,8 @@
 	<head>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="index.js"></script>
+		<script type="text/javascript" src="jqueryui.js"></script>
+		<link rel="stylesheet" type="text/css" href="jqueryuicss/ui-lightness/jquery-ui-1.10.3.custom.min.css" />
 	</head>
 	<body>
 		
@@ -9,12 +11,12 @@
 		<div id="">
 			
 			
-			<p>Number of people</p>
-			<input type="text" id="numberPpl" value="1">
+			<p>Number of people: <span id="numberPplShow"></span></p>
+			<div id="numberPpl"></div>
 			
-			<p>Number of loos</p>
-			<input type="text" id="numberLoos" value="1">
-	
+			<p>Number of loos: <span id="numberLoosShow"></span></p>
+			<div id="numberLoos"></div>
+			
 			<p>We recommend you change every</p>
 			<p id="changeDays"></p>
 			<p>days</p>
