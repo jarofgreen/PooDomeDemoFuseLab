@@ -1,0 +1,27 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+#header { 
+	padding: 0;
+	
+}
+#header p {
+	font-size: 24pt;
+}
+#header #bar1 {
+	height: 10px;
+	background: #68cf3b; 
+}
+#header #bar2 {
+	height: 10px;
+	background: #2d891d;
+}
+#header #bar3 {
+	height: 10px;
+	background: #6a4747; 
+}
+#page { 
+	padding: 50px;
+	
+}
