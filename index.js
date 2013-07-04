@@ -34,7 +34,7 @@ function calculate() {
 	var numPpl = $( '#numberPpl' ).slider( "option", "value" );
 	var numLoos = $( '#numberLoos' ).slider( "option", "value" );
 	
-	var days = Math.round(16 / (numPpl  / numLoos));
+	var days = Math.min(8, Math.round(16 / (numPpl  / numLoos)));
 	
 	
 	$('#numberPplShow').html(numPpl);
